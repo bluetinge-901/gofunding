@@ -11,7 +11,7 @@ namespace app\assets;
 use yii\web\AssetBundle;
 
 /**
- * @author Qiang Xue <qiang.xue@gmail.com>
+ * @author Oza Dev, oza Technologiesq <oza.desk@gmail.com>
  * @since 2.0
  */
 class FlotChartAsset extends AssetBundle {

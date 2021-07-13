@@ -18,8 +18,8 @@ $this->title = 'Masuk';
     <div class="col-md-4 col-md-offset-4">
         <div class="site-login panel panel-default text-center">
             <div class="panel-body">
-                <h2>Hi, Orang Baik!</h2>
-                <h4>Silakan login untuk mengakses semua fitur go-funding</h4>
+                <h2>Hi, User!</h2>
+                <h4>welcome to Login page Login provided by parichay identification system with full 126 bit secured</h4>
                 <hr>
                 <?php
                 $form = ActiveForm::begin([
@@ -43,7 +43,7 @@ $this->title = 'Masuk';
                     </div>
                 </div>
                 <hr>
-                <p> Belum punya akun? <a href="<?= Url::to('signup') ?>">Daftar</a> sekarang.</p>
+                <p> Don't have account? <a href="<?= Url::to('signup') ?>">List</a> Now.</p>
 
                 <?php ActiveForm::end(); ?>
             </div>

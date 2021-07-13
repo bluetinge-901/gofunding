@@ -20,8 +20,8 @@ $this->params['breadcrumbs'][] = 'Pembayaran Belum Selesai';
 
         <div class="text-center">
             <h1>
-                Silahkan selesaikan pembayaran Anda. <br><br>
-                Anda bisa masuk ke menu Dashboard -> Donasi Saya, dan selesaikan pembayaran.
+            Please complete your payment. <br><br>
+                You can go to the Dashboard -> My Donations and Investment menu, and complete the payment.
             </h1>
         </div>
     </div>
@@ -32,7 +32,7 @@ $this->params['breadcrumbs'][] = 'Pembayaran Belum Selesai';
 
         <div class="text-center">
             <h1>
-                Payment gagal, silahkan hubungi kami di email: admin@yarsipeduli.com
+            Payment failed, please contact us at email: oza.desk@gmail.com
             </h1>
         </div>
     </div>    

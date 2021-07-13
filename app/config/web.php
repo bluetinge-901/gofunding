@@ -6,10 +6,10 @@ $modules = require(__DIR__ . '/modules.php');
 $permissions = require(__DIR__ . '/permissions.php');
 
 $config = [
-    'id' => 'gofunding',
-    'name' => 'gofunding',
+    'id' => 'OdX-CFP',
+    'name' => 'Odx-CFP',
     'homeUrl' => '/',
-    'timeZone' => 'Asia/Jakarta',
+    'timeZone' => 'Asia/kolkata',
     'language' => 'id-ID',
     'sourceLanguage' => 'id-ID',
     'defaultRoute' => 'site/index',

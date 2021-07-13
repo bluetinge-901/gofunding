@@ -20,8 +20,7 @@ $this->params['breadcrumbs'][] = 'Finish';
 
         <div class="text-center">
             <h1>
-                Terima kasih atas partisipasi Anda. <br>
-                Pembayaran Anda akan kami cek, mohon menunggu.
+            Thank you for your participation. We will check your payment, please wait.
             </h1>
         </div>
     </div>
@@ -32,7 +31,7 @@ $this->params['breadcrumbs'][] = 'Finish';
 
         <div class="text-center">
             <h1>
-                Payment gagal, silahkan hubungi kami di email: admin@yarsipeduli.com
+            Payment failed, please contact us at email: oza.desk@gmail.com.com
             </h1>
         </div>
     </div>    

@@ -30,7 +30,7 @@ class SignupForm extends Model
             // ['username', 'required'],
             ['username', 'unique', 'targetClass' => '\app\models\User', 'message' => 'NPM/NIK ini sudah digunakan.'],
             ['username', 'string', 'min' => 2, 'max' => 255],
-            ['username', 'required', 'message' => 'NPM/NIK tidak boleh kosong'],
+            ['username', 'required', 'message' => 'NPM/NIK Cant be Empty'],
             ['email', 'trim'],
             [['email', 'repeatPassword'], 'required'],
             ['email', 'email'],

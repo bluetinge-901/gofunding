@@ -18,8 +18,8 @@ $this->title = 'Daftar';
     <div class="col-md-4 col-md-offset-4">
         <div class="site-login panel panel-default text-center">
             <div class="panel-body">
-                <h2>Hi, Orang Baik!</h2>
-                <h4>Selamat bergabung di komunitas orang baik terbesar di Indonesia.</h4>
+                <h2>Hi, Ozafam!</h2>
+                <h4>Create a secure account</h4>
                 <hr>
                 <?php $form = ActiveForm::begin([
                     'id' => 'login-form',
@@ -42,7 +42,7 @@ $this->title = 'Daftar';
                     </div>
                 </div>
                 <hr>
-                <p> Sudah punya akun? Silahkan <a href="<?= Url::to('login') ?>">Login</a></p>
+                <p> already have account ? Login now <a href="<?= Url::to('login') ?>">Login</a></p>
 
                 <?php ActiveForm::end(); ?>
             </div>

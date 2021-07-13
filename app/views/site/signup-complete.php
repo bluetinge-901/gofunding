@@ -13,8 +13,8 @@ use yii\helpers\Url;
 	<div class="row">
 		<div class="col-md-12">
 			<div class="text-center">
-				<h1>Selamat, Anda telah terdafar</h1>
-				<h3>Silahkan buat campaign atau donasi di Yarsi Peduli</h3>
+				<h1>Congratulations, you've been</h1>
+				<h3>Please create a campaign or donation at OdX</h3>
 			</div>
 		</div>
 	</div>
@@ -25,7 +25,7 @@ use yii\helpers\Url;
 				<div class="btn btn-primary">Galang Dana</div>
 			</a> &nbsp&nbsp&nbsp&nbsp&nbsp
 			<a href="<?= Url::to('/campaign/index') ?>">
-				<div class="btn btn-primary">Donasi</div>
+				<div class="btn btn-primary">Donate or Invest</div>
 			</a>
 		</div>
 	</div>

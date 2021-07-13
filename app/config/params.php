@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'brand' => 'Go Funding',
+    'brand' => 'OZA DIGITAL EXCHANGE -,CROWDFUNDING PLATFORM',
     'adminEmail' => '',
     // Storage
     'uploadPath' => Yii::getAlias('@web') . '/uploads/',

@@ -19,7 +19,7 @@ $formatter = Yii::$app->formatter;
                 <div class="text-capitalize">
                     <span class="typed text-50"></span>
                 </div>
-                <p>Ajak keluarga, teman dan netizen <br> berdonasi secara transparan dengan <?= Yii::$app->params['brand'] ?></p>
+                <p>Invite your friends,family,others to join us this platform <?= Yii::$app->params['brand'] ?></p>
             </div>
         </div>
         <div class="row">
@@ -28,13 +28,13 @@ $formatter = Yii::$app->formatter;
                     <div class="col-md-4">
                         <div class="banner-stats-content">
                             <div class="title"><?= $reached ?></div>
-                            <div class="sub-title">Campaign Tercapai</div>
+                            <div class="sub-title">Campaign Reached</div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="banner-stats-content">
                             <div class="title"><?= !empty($sumDonasi) ? $formatter->asCurrency($sumDonasi) : 0 ?></div>
-                            <div class="sub-title">Donasi Terkumpul</div>
+                            <div class="sub-title">Donation Accumulated</div>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -53,9 +53,9 @@ $formatter = Yii::$app->formatter;
         <div class="container margin-bottom-20">
             <div class="row">
                 <div class="col-md-3">
-                    <h2 class="text-32">Menghubungkan <br> #OrangBaik</h2>
-                    <p class="text-18">Cerita sukses penggalangan dana di <?= Yii::$app->params['brand'] ?></p>
-                    <p><a class="btn btn-success text-16" href="<?= Url::to(['/campaign/create']) ?>">Mulai Galang Dana</a></p>
+                    <h2 class="text-32">Join <br> #OrangBaik</h2>
+                    <p class="text-18">Fundraising success stories at <?= Yii::$app->params['brand'] ?></p>
+                    <p><a class="btn btn-success text-16" href="<?= Url::to(['/campaign/create']) ?>">Start a Fundraiser</a></p>
                 </div>
                 <div class="col-md-8 col-md-offset-1">
                     <div class="owl-carousel owl-theme">
@@ -72,8 +72,8 @@ $formatter = Yii::$app->formatter;
     <div class="section-3">
         <div class="container text-center">
             <div class="row">
-                <div class="text-32 title">Platform galang dana terpercaya</div>
-                <div class="sub-title">Ribuan orang menggalang dana di <?= Yii::$app->params['brand'] ?> setiap harinya</div>
+                <div class="text-32 title">Platform trust fund-raise</div>
+                <div class="sub-title">Thousands of people are fundraising in <?= Yii::$app->params['brand'] ?> setiap harinya</div>
 
                 <?php foreach ($campaign as $key => $value) { ?>
                     <?php $progress = $formatter->asPercent($value['terkumpul'] / $value['target_donasi']); ?>

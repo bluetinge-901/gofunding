@@ -22,8 +22,8 @@ class Menus {
     public static function getMenuProfileTab() {
         return [
             'items' => [
-                ['label' => 'Profil', 'url' => ['/profile/index']],
-                ['label' => 'Ganti Password', 'url' => ['/profile/change-password']],
+                ['label' => 'Profile', 'url' => ['/profile/index']],
+                ['label' => 'change Password', 'url' => ['/profile/change-password']],
             ],
             'options' => ['class' => 'nav nav-tabs', 'id' => ''],
             'linkTemplate' => '<a href="{url}" data-pjax=0><span>{label}</span></a>',
